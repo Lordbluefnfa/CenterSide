@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				55,
-				-21
+				57,
+				0
 			],
 			"loop": false,
 			"anim": "singLEFT",
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-80,
-				-7
+				-81,
+				-11
 			],
 			"loop": false,
 			"anim": "singRIGHT",
@@ -35,8 +35,30 @@
 		},
 		{
 			"offsets": [
-				-18,
-				38
+				-60,
+				41
+			],
+			"loop": false,
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Pico NOTE LEFT miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				62,
+				64
+			],
+			"loop": false,
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Pico Note Right Miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-29,
+				27
 			],
 			"loop": false,
 			"anim": "singUP",
@@ -46,8 +68,8 @@
 		},
 		{
 			"offsets": [
-				188,
-				-97
+				-30,
+				-79
 			],
 			"loop": false,
 			"anim": "singDOWN",
@@ -57,35 +79,24 @@
 		},
 		{
 			"offsets": [
-				188,
-				-97
+				210,
+				-28
 			],
 			"loop": false,
-			"anim": "shoot",
+			"anim": "singDOWNmiss",
 			"fps": 24,
-			"name": "Pico Shoot",
+			"name": "Pico Down Note MISS",
 			"indices": []
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-19,
+				67
 			],
 			"loop": false,
-			"anim": "idle-alt",
+			"anim": "singUPmiss",
 			"fps": 24,
-			"name": "Pico Idle Angry",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"anim": "cock",
-			"fps": 24,
-			"name": "Pico Cock",
+			"name": "pico Up note miss",
 			"indices": []
 		}
 	],
@@ -98,9 +109,9 @@
 	"healthicon": "pico",
 	"flip_x": true,
 	"healthbar_colors": [
-		140,
 		0,
-		0
+		102,
+		255
 	],
 	"camera_position": [
 		0,
